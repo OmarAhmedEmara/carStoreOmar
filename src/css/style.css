@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* .btn-primary {
+      @apply py-1.5 px-3 text-center bg-blue-700 rounded-md text-white;
+  } */
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 40px;
+  margin: auto;
+}
+
+/* style صفحه home */
+/* style section HeroSection */
+/* header{
+   background-image: url("../../public/img/div.HeroBanner_background__B5YAs\ \(1\).png");
+   background-size: cover;
+   
+
+}
+@media (max-width: 1032px) {
+  header{
+    background-position: right;
+  }
+
+ 
+} */
+
+/* style صفحه CarFinance */
+/* style section HeroCarFinance */
+main{
+   background-image: url("../../public/img/HowFinanceWorksHero.jpg.png");
+   background-size: cover;
+   height: 600px;
+   
+
+}
+@media (max-width: 1032px) {
+  main{
+    background-position: right;
+  }
+
+ 
+} 
+
+
+/* style صفحه how it works */
+/* style section Hero Works */
+
+section{
+   background-image: url("../../public/img/div.HeroBanner_background__B5YAs\ \(1\).png");
+   background-size: cover;
+   height: 600px;
+  
+
+}
+@media (max-width: 1032px) {
+  section{
+    background-position: right;
+  }
+
+ 
+}
+
+
+/* style صفحه sell or trade in*/
+/* style section Hero sell */
+
+.Sell{
+   background-image: url("../../public/img/HowCarmaWorksHero.jpg.svg");
+   background-size: cover;
+   height: 600px;
+  
+
+}
+@media (max-width: 1032px) {
+  .Sell{
+    background-position: right;
+  }
+
+ 
+}
+
+/* style صفحه sell or trade in*/
+/* style section Hero sell */
+  /* Smooth perspective for 3D tilt */
+    .card {
+      perspective: 1000px;
+    }
+    .card-inner {
+      transition: transform 0.3s ease;
+      transform-style: preserve-3d;
+    }
+
+
+
+
+
